@@ -1,0 +1,29 @@
+<!-- author Sudarshan -->
+<html>
+<head>
+<title>ThymeLeaf Dialect</title>
+</head>
+<body>
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="login/login-header" th:remove="tag"></div>
+		</div>
+		<div class="welcon-container">
+
+
+			<div th:if="${location}!=null" class="locat-track">
+				<span id="client-loc">Client/User Location is :</span><br/><br/> <marquee><span
+					id="client-addr" th:text="${location}"></span></marquee>
+			</div>
+		</div>
+
+		<div id="welcome-footer">
+			<div class="col-lg-12 col-sm-12 col-xs-12 copyrights">
+				<div th:substituteBy="login/login-footer" th:remove="tag"></div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

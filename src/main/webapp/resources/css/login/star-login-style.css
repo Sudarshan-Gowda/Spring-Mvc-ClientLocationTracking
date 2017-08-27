@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* @Author Sudarshan */
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #D7E1E8;
+	background: url(../../images/pattern.png);
+	font-size: 12px;
+	margin-right: 0px !important;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	background-color: #ddd;
+}
+
+a.logo {
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px;
+}
+
+a.logo>b {
+	font-size: 30px;
+}
+
+#star-footer {
+	margin-top: 550px;
+}
+
+.copyrights {
+	width: 100%;
+	height: auto;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+#client-loc {
+	margin-top: 150px;
+	margin-left: 290px;
+	font-size: large;
+	color: red;
+}
+
+#client-addr {
+	color: deepskyblue;
+	font-size: large;
+}
+
+#welcome-footer {
+	margin-top: 300px;
+}
+
+.locat-track {
+	margin-top: 180px;
+}
+
+#footer-year {
+	color: brown;
+}
