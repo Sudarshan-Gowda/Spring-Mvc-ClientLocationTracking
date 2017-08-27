@@ -13,9 +13,13 @@ In this repository tracking of Client User is covered
  2: ThymeLeaf 3.0
  
  # Server & Eclipse
- Wildfly 10
- Mars
- 
+  Server  --> Wildfly 10                                                                                                              
+  Eclipse --> Mars 2
+  
+  
+  
+  
+                                                                                                                                       
  If yoy guys get any issues, feel free to comment, I will help you to solve the issues regarding this repository.
  
  Thank u guys, Have a great day.
