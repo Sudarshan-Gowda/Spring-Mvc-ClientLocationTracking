@@ -62,7 +62,7 @@ public class GoogleMapLocation {
 		try {
 
 			String urlAddr = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lattitude + "," + longitide
-					+ "&key=AIzaSyDp68nuNrLzuErgL5w0Rd_fDWtwxwM_R_o";
+					+ "&key=change-accordingly-give-ur-key";
 
 			locationAddress = readJsonFromUrl(urlAddr);
 		} catch (IOException e) {
