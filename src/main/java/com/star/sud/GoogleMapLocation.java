@@ -1,6 +1,6 @@
 package com.star.sud;
 
-/*@Author Sudarshan*/
+/*@Author Sudarshan Gowda*/
 
 import java.io.BufferedReader;
 import java.io.IOException;
