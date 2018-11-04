@@ -23,7 +23,7 @@ function initMap() {
 			langTest = position.coords.longitude;
 
 			$.ajax({
-				url : '/tracking-client-location-using-google-api/google/loaction-track',
+				url : '/Spring-Mvc-ClientLocationTracking/google/loaction-track',
 				contentType : "application/json; charset=utf-8",
 				data : {
 					'lattitude' : position.coords.latitude,

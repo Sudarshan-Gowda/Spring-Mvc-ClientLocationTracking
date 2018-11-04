@@ -1,4 +1,5 @@
 package com.star.sud.web.controller;
+
 /*@Author Sudarshan*/
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,6 +16,8 @@ import com.star.sud.GoogleMapLocation;
 @Controller
 public class StarMapContoller {
 
+	private static final String apiKey = "";// Change your API key accordingly
+
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String loginPage(Model model) {
 
@@ -25,9 +28,15 @@ public class StarMapContoller {
 	public String getResultFromGoogleLoaction(Model model, HttpServletRequest request, HttpServletResponse response,
 			@RequestParam String lattitude, @RequestParam String longitude, HttpSession session) {
 
-		String location = GoogleMapLocation.getLocationAddress(lattitude, longitude);
-		model.addAttribute("location", location);
+		String location = "";
+		System.out.println(apiKey);
+		if (null == apiKey || apiKey.isEmpty()) {
+			location = "Please enable/give your api key in the class StarMapContoller to access to the current location";
 
+		} else {
+			location = GoogleMapLocation.getLocationAddress(lattitude, longitude, apiKey);
+		}
+		model.addAttribute("location", location);
 		return "/welcome/welcome-page";
 	}
 

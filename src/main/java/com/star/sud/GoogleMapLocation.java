@@ -50,19 +50,19 @@ public class GoogleMapLocation {
 			JSONObject jobj = (JSONObject) parser.parse(msg.get(1).toString()); // Parsse
 			locationAddr = jobj.get("formatted_address").toString();
 
-		} catch (Exception e) {
+		} catch (Exception e) {	
 			locationAddr = "Error In Address" + e;
 		}
 		return locationAddr;
 	}
 
-	public static String getLocationAddress(String lattitude, String longitide) {
+	public static String getLocationAddress(String lattitude, String longitide, String apiKey) {
 
 		String locationAddress = "";
 		try {
 
 			String urlAddr = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lattitude + "," + longitide
-					+ "&key=change-accordingly-give-ur-key";
+					+ "&key="+apiKey+"";
 
 			locationAddress = readJsonFromUrl(urlAddr);
 		} catch (IOException e) {

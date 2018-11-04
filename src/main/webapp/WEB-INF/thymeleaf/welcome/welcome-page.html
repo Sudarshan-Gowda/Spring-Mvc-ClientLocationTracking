@@ -1,7 +1,8 @@
 <!-- author Sudarshan -->
 <html>
 <head>
-<title>ThymeLeaf Dialect</title>
+<title>Client Location Tracking</title>
+<link rel="icon" th:href="@{/resources/images/sudarshan-logo.png}" />
 </head>
 <body>
 	<div id="fullpage">
@@ -12,8 +13,10 @@
 
 
 			<div th:if="${location}!=null" class="locat-track">
-				<span id="client-loc">Client/User Location is :</span><br/><br/> <marquee><span
-					id="client-addr" th:text="${location}"></span></marquee>
+				<span id="client-loc">Client/User Location is :</span><br /> <br />
+				<marquee>
+					<span id="client-addr" th:text="${location}"></span>
+				</marquee>
 			</div>
 		</div>
 
