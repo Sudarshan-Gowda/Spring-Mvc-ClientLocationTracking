@@ -17,12 +17,11 @@ In this repository tracking of Client User is covered
   Eclipse --> Mars 2
   
   
+  <img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-ClientLocationTracking/blob/master/docs/picture1.png"/>
+  <img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-ClientLocationTracking/blob/master/docs/picture2.png"/>
   
   
-                                                                                                                                       
- If yoy guys get any issues, feel free to comment, I will help you to solve the issues regarding this repository.
- 
- Thank u guys, Have a great day.
+                                                                                                                                     
  
  
  
