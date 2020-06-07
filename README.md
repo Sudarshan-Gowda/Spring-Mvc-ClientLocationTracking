@@ -16,13 +16,6 @@ In this repository tracking of Client User is covered
   Server  --> Wildfly 10                                                                                                              
   Eclipse --> Mars 2
   
-  
-  <img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-ClientLocationTracking/blob/master/docs/picture1.png"/>
-  <img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-ClientLocationTracking/blob/master/docs/picture2.png"/>
-  
-  
-                                                                                                                                     
- 
  
  
  
