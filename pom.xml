@@ -8,7 +8,7 @@
 
 	<properties>
 		<!-- Spring -->
-		<spring-framework.version>4.0.4.RELEASE</spring-framework.version>
+		<spring-framework.version>5.2.20.RELEASE</spring-framework.version>
 
 		<!-- Thymeleaf -->
 		<thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
